@@ -402,7 +402,7 @@ public class PasswordSearchPanel extends ContentPanel implements TagLoadListener
                 Dialog popup = new Dialog();
                 popup.setHeading(textMessages.currentPassword());
                 popup.setButtons(Dialog.CLOSE);
-                popup.addText(Format.htmlEncode(result));
+                popup.addText(result);
                 popup.setScrollMode(Scroll.AUTO);
                 popup.setHideOnButtonClick(true);
                 popup.show();
